@@ -1,0 +1,24 @@
+name: "my-website"
+output_dir: "."
+navbar:
+  title: "Life Lessons, Science Stories"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Contact"
+      href: about.html
+    - text: "Episodes"
+      href: episodes.html
+  right: 
+    - icon: fa-envelope fa-lg
+      href: mailto:<lifelessonssciencestories@gmail.com>
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/storiesscience
+    - icon: fa-instagram fa-lg
+      href: https://www.instagram.com/lifelessonssciencestories/?hl=en
+    - icon: fa-facebook fa-lg
+      href: https://facebook.com/Life-Lessons-Science-Stories-112126557929267/
+output:
+  html_document:
+    highlight: textmate
+    css: styles.css
